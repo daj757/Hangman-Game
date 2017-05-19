@@ -1,0 +1,18 @@
+.all {
+	font-family: 'Martel Sans', cursive;
+	background-image: url(../images/prez.JPG);
+	color: white;
+	background-size: cover;
+}
+.span12 {
+	background-image: none;
+	background-size: cover;
+
+
+}
+
+#presidents {
+	display: flex;
+	justify-content: right;
+	margin-right: 100px;
+}
