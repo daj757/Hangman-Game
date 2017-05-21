@@ -59,19 +59,21 @@
 			}
 					lettersArray.push(letter)
 					document.getElementById("presidents").innerHTML = answerArray.join(" ");
-					document.getElementById("lettersGuessed").innerHTML = lettersArray.filter(onlyUnique);
+					document.getElementById("lettersGuessed").innerHTML = "Letters guessed: " + lettersArray.filter(onlyUnique);
 
 			
 		}
   			if(hangmanState === drawSequence.length){
-	 				alert("Better luck next time!!!")
+	 				alert("The answer was " + chooseWord + ". Better luck next time!")
 	 					reset()
 }
 
 			if(answerArray === chooseWord){
-			         alert("Our nation salutes you!!!")
+			         alert("You guessed correctly. Our nation salutes you!!!")
 			     		reset()
+			     		
 			     	}
+
 
 	}
 	// Drawing the hangman
@@ -116,7 +118,7 @@
 		document.getElementById("rightArm").style.opacity = 0;
 		document.getElementById("leftLeg").style.opacity =0;
 		document.getElementById("rightLeg").style.opacity =0;
-		document.getElementById("lettersGuessed").innerHTML = " ";
+		document.getElementById("lettersGuessed").innerHTML = "Letters guessed: ";
 
 		startUp();
 		lettersArray = [];
