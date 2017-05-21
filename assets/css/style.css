@@ -55,7 +55,7 @@ h3 {
 #header{
 	display: flex;
 	justify-content: center;
-	background-image: url(../images/flag.JPG);
+	background-image: url(../images/flag.jpg);
 	background-size: cover;
 	
 
@@ -63,7 +63,7 @@ h3 {
 }
 
 .col-md-9{
-	background-image: url(../images/prez.JPG);
+	background-image: url(../images/prez.jpg);
 	background-size: cover;
 	height: 600px;
 	
@@ -73,7 +73,7 @@ h3 {
 .col-md-3 {
 
 
-	background-image: url(../images/land.JPG);
+	background-image: url(../images/land.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 600px;
