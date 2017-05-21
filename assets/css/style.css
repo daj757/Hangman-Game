@@ -8,7 +8,9 @@
 }
 h1 {
 	display: inline-flex;
+	justify-content: center;
 	background-color: black;
+	background-size: cover;
 	
 	
 	
