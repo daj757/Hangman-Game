@@ -2,7 +2,7 @@
 	font-family: 'Dancing Script', cursive;
 
 	color: white;
-	background-color: black;
+	
 
 	
 }
@@ -62,16 +62,23 @@ h4 {
 	
 }
 
-.col-md-10{
+.col-md-9{
 	background-image: url(../images/prez.JPG);
 	background-size: cover;
 	height: 550px;
 	
 }
-.draw-area {
-	
+
+
+.col-md-3 {
+
+
 	background-image: url(../images/land.JPG);
 	background-size: cover;
+	background-position: center;
+	height: 550px;
+
+	
 }
 
 #letter{
@@ -103,61 +110,69 @@ input {
 /*Body parts*/
 
 #head {
-	height: 150px;
-	width: 150px;
-	position: relative;
-   color: red;
+	display: flex;
+	justify-content: center;
+	font-size: 13em;
+	margin-top: 40px;
+   color: white;
    opacity: 0;
+
 	
 }
 #torso {
-	height: 350px;
-	width: 200px;
-	position: relative;
+	font-size: 13em;
+	display:flex;
+	justify-content: center;
+	opacity: 10;
+	margin-top: -30px;
 	opacity: 0;
-	top: -33px;
-	right: 39px;
+	
 
 }
 #leftArm {
-	position: relative;
-	height: 150px;
-	width: 100px;
-	transform: rotate(315deg);
-	right: 37px;
-	top: -365px;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	transform: rotate(123deg);
+	font-size: 10em;
+	margin-top: -190px;
+	margin-right: 150px;
 	opacity: 0;
 
 }
 
 #rightArm {
-	position: relative;
-	height: 150px;
-	width: 100px;
-	transform: rotate(45deg);
-	left: 55px;
-	top: -514px;
-	opacity:0;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	transform: rotate(246deg);
+	font-size: 10em;
+	margin-top: -260px;
+	margin-left: 23px;
+	opacity: 0;
 }
 
 #leftLeg {
-	position: relative;
-	height: 150px;
-	width: 100px;
-	transform: rotate(135deg);
-	right: -58px;
-	top: -394px;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	transform: rotate(46deg);
+	font-size: 10em;
+	margin-top: 190px;
+	margin-left: 55px;
 	opacity: 0;
+
 
 }
 
 #rightLeg {
-	position: relative;
-	height: 150px;
-	width: 100px;
-	transform: rotate(215deg);
-	right: 23px;
-	top: -537px;
+	color: white;
+	display: flex;
+	
+	transform: rotate(314deg);
+	font-size: 10em;
+	margin-top: -220px;
+	margin-left: 142px;
 	opacity: 0;
 
 }
