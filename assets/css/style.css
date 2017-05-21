@@ -1,18 +1,166 @@
 .all {
-	font-family: 'Martel Sans', cursive;
-	background-image: url(../images/prez.JPG);
+	font-family: 'Dancing Script', cursive;
+
 	color: white;
+	background-color: black;
+
+	
+}
+h1 {
+	display: inline-flex;
+	background-color: black;
+	background-size: 500px;
+	
+	
+}
+
+h3 {
+	text-align: right;
+	font-size: 27px;
+}
+h4 {
+	text-align: right;
+	margin-top: 20px;
+	font-size: 27px;
+}
+#music {
+	
+	margin-left: 40px;
+	justify-content: flex-end;
+	background-color: black;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+
+}
+
+#pause {
+	justify-content: flex-end;
+	background-color: black;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+#reset{
+	height: 55px;
+	width: 85px;
+	background-color: black;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+
+	
+}
+
+#header{
+	display: flex;
+	justify-content: center;
+	background-image: url(../images/flag.JPG);
+	background-size: cover;
+	
+
+	
+}
+
+.col-md-10{
+	background-image: url(../images/prez.JPG);
+	background-size: cover;
+	height: 550px;
+	
+}
+.draw-area {
+	
+	background-image: url(../images/land.JPG);
 	background-size: cover;
 }
-.span12 {
-	background-image: none;
-	background-size: cover;
 
-
+#letter{
+	font-size: 25px;
 }
 
 #presidents {
 	display: flex;
-	justify-content: right;
-	margin-right: 100px;
+	justify-content: flex-end;
+	font-size: 35px;
+	
 }
+#lettersGuessed {
+	font-size: 35px;
+	margin-bottom: 25px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+input {
+
+	height: 60px;
+	width: 60px;
+	background-color: black;
+	text-align: center;
+	
+}
+
+/*Body parts*/
+
+#head {
+	height: 150px;
+	width: 150px;
+	position: relative;
+   color: red;
+   opacity: 0;
+	
+}
+#torso {
+	height: 350px;
+	width: 200px;
+	position: relative;
+	opacity: 0;
+	top: -33px;
+	right: 39px;
+
+}
+#leftArm {
+	position: relative;
+	height: 150px;
+	width: 100px;
+	transform: rotate(315deg);
+	right: 37px;
+	top: -365px;
+	opacity: 0;
+
+}
+
+#rightArm {
+	position: relative;
+	height: 150px;
+	width: 100px;
+	transform: rotate(45deg);
+	left: 55px;
+	top: -514px;
+	opacity:0;
+}
+
+#leftLeg {
+	position: relative;
+	height: 150px;
+	width: 100px;
+	transform: rotate(135deg);
+	right: -58px;
+	top: -394px;
+	opacity: 0;
+
+}
+
+#rightLeg {
+	position: relative;
+	height: 150px;
+	width: 100px;
+	transform: rotate(215deg);
+	right: 23px;
+	top: -537px;
+	opacity: 0;
+
+}
+
+
+
